@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="descripcion"
+      content="Sitio web personal, dedicado para la presentacion de un portafolio e información básica de y 
+    de contacto acerca de su desarrollador."
+    />
+    <meta name="Autor" content="Menghy Raúl Sánchez Maila" />
+    <title>Menghy | Dev. Front-End</title>
+    <link href="CSS/styles.css" rel="stylesheet" crossorigin="anonymous" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div>
+        <a target alt href="/">
+          <img class="logo" src="/UPLOADS/logo_menghy.png" alt="Logo Menghy" />
+        </a>
+      </div>
+      <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Technologies</a></li>
+            <li><a href="#">Portafolio</a></li>
+            <li><a href="#">Contact me</a></li>
+            
+        </ul>
+      </nav>
+
+      <a href="#" onclick="openNav()" class="menu"><button>Menu</button></a>
+<div class="overlay" id="mobil-menu">
+    <a onclick="closeNav()" href="" class="close">&times;</a>
+    <div class="overlay-content">
+        <a href="#">About me</a>
+        <a href="#">Technologies</a>
+        <a href="#">Portafolio</a>
+        <a href="#">Contact me</a>
+    
+    </div>
+</div>
+
+    </header>
+
+    
+
+    <script type="text/javascript" src="JS/index.js"></script>
+  </body>
+</html>
