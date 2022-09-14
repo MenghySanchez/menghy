@@ -1,10 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap");
 * {
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   margin: 0px;
-  padding: 0px;
   box-sizing: border-box;
 }
 .header {
@@ -137,3 +135,75 @@
     right: 35px;
   }
 }
+
+.head-presentation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 10% 10%;
+  background-color: #010a1d;
+}
+
+.picturePerson {
+  display: flex;
+  align-content: flex-start;
+  width: 400px;
+  border-radius: 50%;
+}
+.columCenter {
+  align-items: center;
+  display: inline-flexbox;
+  height: 100px;
+  justify-content: center;
+}
+h1 {
+  color: white;
+  font-size: 30px;
+}
+h2.subtitle {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+h2.sectionSubtitle {
+  font-size: 20px;
+  text-align: center;
+}
+.containerSection {
+  padding: 20px 50px 50px 50px;
+  align-items: center;
+  justify-content: center;
+}
+.sectionAbout {
+  margin: 10px 10%;
+  display: inline-flex;
+  text-align: justify;
+}
+div h3{
+    text-align: center;
+}
+div p{
+    padding: 10px;
+}
+
+.card{
+    display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.cards__item {
+    display: flex;
+    padding: 1rem;
+    @media(min-width: 40rem) {
+      width: 50%;
+    }
+    @media(min-width: 56rem) {
+      width: 33.3333%;
+    }
+  }

@@ -23,30 +23,76 @@
       </div>
       <nav class="navbar">
         <ul class="nav-links">
-            <li><a href="#">About me</a></li>
-            <li><a href="#">Technologies</a></li>
-            <li><a href="#">Portafolio</a></li>
-            <li><a href="#">Contact me</a></li>
-            
+          <li><a href="#">About me</a></li>
+          <li><a href="#technologies">Technologies</a></li>
+          <li><a href="#">Portafolio</a></li>
+          <li><a href="#">Contact me</a></li>
         </ul>
       </nav>
 
       <a href="#" onclick="openNav()" class="menu"><button>Menu</button></a>
-<div class="overlay" id="mobil-menu">
-    <a onclick="closeNav()" href="" class="close">&times;</a>
-    <div class="overlay-content">
-        <a href="#">About me</a>
-        <a href="#">Technologies</a>
-        <a href="#">Portafolio</a>
-        <a href="#">Contact me</a>
-    
-    </div>
-</div>
-
+      <div class="overlay" id="mobil-menu">
+        <a onclick="closeNav()" href="" class="close">&times;</a>
+        <div class="overlay-content">
+          <a href="#">About me</a>
+          <a href="#">Technologies</a>
+          <a href="#">Portafolio</a>
+          <a href="#">Contact me</a>
+        </div>
+      </div>
     </header>
+    <section class="head-presentation">
+      <div>
+        <img
+          class="picturePerson"
+          src="UPLOADS/menghy_sanchez.png"
+          alt="Imagen de Menghy Sánchez"
+        />
+      </div>
+      <div class="columCenter">
+        <h1>Menghy Sánchez</h1>
+        <h2 class="subtitle">Desarrollador Front-End</h2>
+      </div>
+    </section>
+    <container class="containerSection">
+      <div>
+        <h2 class="sectionSubtitle">About me</h2>
+      </div>
+      <section id="about_me" class="sectionAbout">
+        <div class="card">
+          <h3>¿Quién soy?</h3>
+          <p>
+            ¡Hola!, mi nombre es Menghy Raúl Sánchez, tengo 26 años y soy
+            desarrollador web front-end tengo 3 años de experencia en desarrollo
+            de sitios webs con Wordpress y 2 años en sitios webs con HTML, CSS y
+            JS.
+          </p>
+        </div>
+        <div>
+          <h3>Mis conocimientos</h3>
+          <p>
+            Actualmente estoy cursando una maestria en Ingenieria de Sofware y
+            Sistemas de Información en la Universidad tecnologica TECH de
+            Mexico; de forma autonoma estoy aprendiendo acerca de ReactJS,
+            Redux, Mongo, NodeJS y Express.
+          </p>
+        </div>
+        <div>
+          <h3>Mi visión</h3>
+          <p>
+            A corto / mediano plazo, quiero crear mi propia empresa tecnologica
+            en mi ciudad natal, para generar un cambio positivo en la socidad.
+          </p>
+        </div>
+      </section>
+    </container>
 
-    
-
+    <section id="technologies">
+      <div>
+        <h2>Technologies</h2>
+      </div>
+      <div></div>
+    </section>
     <script type="text/javascript" src="JS/index.js"></script>
   </body>
 </html>
